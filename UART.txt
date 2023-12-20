@@ -1,0 +1,42 @@
+COMMUNICAION PROTOCOLS:-
+~~~~~~~~~~~~~~~~~~~~~~~~~
+*INTRO
+~~~~~~~
+Data transmission types:-
+
+1)Simplex:- 
+	->one device transmits and other device receive
+	->communiation is possible in one direction only
+          eg:radio
+          TX------------>RX
+2)Half-duplex:-
+	->two devices can send and receive from each others
+	->two way communication but only one way at a time
+	eg: walkie-talkie
+	  TX<----------->RX
+3)Full-duplex:-
+	->communication is possible in both directions,both sides can transmit and receive at the same time 
+	->eg:phone cell
+             ------------------->
+           TX                     RX
+	     <-------------------
+
+TYPES OF COMMUNICATION:-
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+UART:-
+~~~~~
+->UART stands for Universal asyncchronous Transmitter and Receiver
+->It was designed by GORDEN BELL for lond distance communication.
+->It is a two wired communication protocol
+  Txd and Rxd
+->It is a full duplex asynchronous serial communcation protocol.
+   & also it can be used synchronous serial communicatio protocol by connecting externnal clock 
+->The max speed is 1 Mbps(40 mts).
+->It is designed for long distance communication
+->Data transfer from LSB->MSB.
+->No acknowledgement present inside the UART
+->Size of data frame 10 bits[start bit, stop bits and 8 data bits)
+->Designed for peer to peer communication[means one to one]
+->Ex:- Apllications of UART[Bluetooth headset and mobile phone]
